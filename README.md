@@ -17,7 +17,7 @@ After this introduction, the workshop will split into two tracks. Participants i
 
 ## Material
 
-- [Slides](https://docs.google.com/presentation/d/1m13YXHw-GLa7751w8Yye_jA2xIMFyXUYMnODtFqhNwM/edit?usp=sharing)
+- [Slides](https://docs.google.com/presentation/d/1gx8NNpPcyrKZP3_UGGO0uBX21oGf7Xu5H7WO3UbF7E8/edit?usp=sharing)
 - [Download Sample Data](https://drive.google.com/drive/folders/1djDf4TwTfQaxLKoLOvHG0zWRWZ76yhCY?usp=sharing)
 
 ## Installation
