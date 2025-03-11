@@ -31,7 +31,7 @@ mamba create -n plant-seg -c pytorch -c conda-forge pytorch cpuonly plant-seg py
 This will create a new environment called `plant-seg` with all the necessary dependencies. To activate the environment, use the following command:
 
 ```bash
-conda activate plant-seg
+mamba activate plant-seg
 ```
 
 If you have a GPU or need more detailed instructions, please refer to the [Plantseg Installation](https://kreshuklab.github.io/plant-seg/chapters/getting_started/installation/).
