@@ -11,7 +11,7 @@ After this introduction, the workshop will split into two tracks. Participants i
 - Follow Along Demo:
   - Running PlantSeg as a Napari plugin
   - Proofreading Segmentation
-- Hands On Exercises:
+- Hands-On Exercises:
   - Advanced Usage
   - Implement a PlantSeg pipeline from Scratch
 
@@ -25,7 +25,7 @@ After this introduction, the workshop will split into two tracks. Participants i
 To create a new conda environment with PlantSeg, you can use the following command:
 
 ```bash
-mamba create -n plant-seg -c pytorch -c nvidia -c conda-forge pytorch cpuonly plant-seg --no-channel-priority
+mamba create -n plant-seg -c pytorch -c conda-forge pytorch cpuonly plant-seg pytorch-3dunet --no-channel-priority
 ```
 
 This will create a new environment called `plant-seg` with all the necessary dependencies. To activate the environment, use the following command:
@@ -34,4 +34,4 @@ This will create a new environment called `plant-seg` with all the necessary dep
 conda activate plant-seg
 ```
 
-If you have a GPU, or you need more detailed instructions, please refer to the [Plantseg Installation](https://kreshuklab.github.io/plant-seg/chapters/getting_started/installation/).
+If you have a GPU or need more detailed instructions, please refer to the [Plantseg Installation](https://kreshuklab.github.io/plant-seg/chapters/getting_started/installation/).
