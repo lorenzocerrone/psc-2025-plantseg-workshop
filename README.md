@@ -25,7 +25,7 @@ After this introduction, the workshop will split into two tracks. Participants i
 To create a new conda environment with PlantSeg, you can use the following command:
 
 ```bash
-mamba create -n plant-seg -c pytorch -c nvidia -c conda-forge pytorch cpuonly plant-seg --no-channel-priority
+mamba create -n plant-seg -c pytorch -c nvidia -c conda-forge pytorch cpuonly plant-seg notebook --no-channel-priority
 ```
 
 This will create a new environment called `plant-seg` with all the necessary dependencies. To activate the environment, use the following command:
