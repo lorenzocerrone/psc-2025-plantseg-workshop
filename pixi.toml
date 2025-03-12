@@ -1,0 +1,17 @@
+[project]
+authors = ["lorenzo <lorenzo.cerrone@uzh.ch>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "plantseg-workshop-psc-2025"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+set_mps = "export PYTORCH_ENABLE_MPS_FALLBACK=1 && echo 'MPS fallback enabled'"
+plantseg = { cmd = "PYTORCH_ENABLE_MPS_FALLBACK=1 plantseg" }
+
+
+[dependencies]
+pytorch-3dunet = "==1.9.1"
+plant-seg = ">=2.0.0b3,<3"
+notebook = ">=7.3.2,<8"
